@@ -1,0 +1,110 @@
+body {
+  background-image:url("bg3.gif");
+   background-attachment: fixed; 
+
+  background-size:contain;
+
+
+}
+@media screen and (max-width: 800px) {
+  body {
+ background-repeat: no-repeat;
+ background-size:cover;
+  }
+}
+
+.formStyle2{
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 6%;
+  padding: 20px;
+  
+  border: 1px solid #B0C4DE;
+  background:powderblue ;
+  
+  border-radius: 10%;
+ 
+  box-shadow: 10px 10px 5px rgb(65, 68, 70);
+  animation-name: loginUser;
+  animation-duration: 2s;
+  
+}
+@keyframes loginUser {
+  from { 
+    transform: rotatey(90deg);
+    background-color: rgba(22, 22, 22, 0.712); 
+  }
+  to{
+      background-color: rgb(163, 217, 248); 
+  }
+
+}
+
+.formStyle{
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 1%;;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background:powderblue ;
+  
+  border-radius: 10%;
+ 
+  box-shadow: 10px 10px 5px rgb(65, 68, 70);
+  animation-name: loginUser;
+  animation-duration: 2s;
+}
+.signup-button {
+  
+  border-radius: 5px;
+  transform: translatex(120%);
+  cursor: pointer;
+}
+
+.homePage{
+ background-color: black;
+ color: aliceblue;
+  font-size: x-large;
+  width: 10%;
+  height: 100px;
+  
+}
+.pageNot{
+  background-color: black;
+  color: aliceblue;
+   font-size: 300%;
+  
+   text-align: center;
+   margin-top: 10px;
+   
+}
+
+.logout-btn {
+  
+
+  background-color: black;
+  color: aliceblue;
+  font-size: x-large;
+  transform: translatex(150%);
+  border-radius: 15px;
+   width: 10%;
+   height: 100px;
+   cursor: pointer;
+}
+.logout-btn:hover{
+  background-color: rgb(238, 163, 163);
+  color: rgb(2, 4, 7);
+}
+h2{
+  transform: translatex(35%);
+  margin-top: 1%;
+
+  text-shadow: 2px 2px 8px #255969;
+
+}
+.textLast{
+ margin-left: 20%;
+
+}
+
+
