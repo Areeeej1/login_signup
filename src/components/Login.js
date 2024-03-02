@@ -146,8 +146,18 @@ const Login = () => {
       if( validateUsername()&&
       validatePassword())
       {
-        loginUserApi();
-        loginUsersecondApi();
+        setErrors("loggin done");
+        setErrorBar(true);
+        
+       
+        localStorage.setItem("userName",loginDetails.username);
+        setTimeout(function () {
+          setLoading(false);
+          setLoggedIn(true);
+        }, 1000);
+      
+        // loginUserApi();
+        // loginUsersecondApi();
       }
 
     }

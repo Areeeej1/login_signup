@@ -215,8 +215,17 @@ const SignUp = () => {
      validatePassword()
    
    ){
-    registerUser();
-    createUser();
+    setErrors("signUP Done");
+    setErrorBar(true);
+    localStorage.setItem("userName",signupDetails.username);
+
+    
+    setTimeout(function () {
+      setLoading(false);
+      setRegister(true);
+    }, 1000);
+    // registerUser();
+    // createUser();
 
    }
     else{
