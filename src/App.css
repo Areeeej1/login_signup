@@ -19,8 +19,8 @@ body {
   margin-top: 6%;
   padding: 20px;
   
-  border: 1px solid #B0C4DE;
-  background:powderblue ;
+  border: 1px  solid #000000;
+  background-color: rgb(19, 63, 89);
   
   border-radius: 10%;
  
@@ -32,10 +32,10 @@ body {
 @keyframes loginUser {
   from { 
     transform: rotatey(90deg);
-    background-color: rgba(22, 22, 22, 0.712); 
+    background-color: rgba(162, 140, 140, 0.712); 
   }
   to{
-      background-color: rgb(163, 217, 248); 
+      background-color: rgb(19, 63, 89); 
   }
 
 }
@@ -45,8 +45,8 @@ body {
   margin: 0px auto;
   margin-top: 1%;;
   padding: 20px;
-  border: 1px solid #B0C4DE;
-  background:powderblue ;
+  border: 1px solid #000000;
+  background-color: rgb(19, 63, 89);
   
   border-radius: 10%;
  
